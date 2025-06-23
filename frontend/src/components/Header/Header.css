@@ -1,7 +1,7 @@
 .header{
     height: 34vw;
     width: 30px auto;
-    background:url('C:\Users\HP\OneDrive\Desktop\food-delivery\frontend\public\header_img.png') no-repeat;
+    background:url('\header_img.png') no-repeat;
     background-size: contain;
     position: relative;
 }
