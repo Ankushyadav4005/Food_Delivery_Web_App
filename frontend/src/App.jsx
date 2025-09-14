@@ -6,17 +6,15 @@ import Cart from './pages/Cart/Cart'
 import PlaceOrder from'./pages/PlaceOrder/PlaceOrder'
 import { Footer } from './components/Footer/Footer'
 // import Loginpopup from './components/LoginPopup/Loginpopup'
-import Loginpopup from './components/LoginPopup/Loginpopup';
-
-
-
+import LoginPopup from './components/LoginPopup/LoginPopup'
 
 const App = () => {
 
  const[showLogin,setShowLogin]=useState(false)
   return (
     <>
-   {showLogin?<Loginpopup setShowLogin={setShowLogin }/>:<></>}
+  {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : null}
+
     
     <div className='app'>
    <Navbar setShowLogin={setShowLogin}/>
